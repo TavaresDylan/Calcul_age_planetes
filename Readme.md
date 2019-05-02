@@ -2,6 +2,8 @@
 
 ## Consignes :
 
+Faire un site pour calculer notre âge selon les différentes planètes du système solaire.
+
 ### Langages :
 
 - HTML5
