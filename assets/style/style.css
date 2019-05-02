@@ -1,0 +1,118 @@
+body{
+	background: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	font-family: 'Audiowide', impact , sans-serif;
+	color: #fff;
+	text-shadow: 2px 2px black ;
+	text-align: center;
+	margin:0 0 0;
+}
+h1{
+	font-size: 2.3em;
+}
+#titre{
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 20px 20px 20px;
+	width: auto;
+}
+/* Section formulaire */
+#section1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/* Section img */
+#section2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+img.planet{
+	display: grid;
+	margin-top: 20px;
+	width: 120px;
+	height: 100px;
+	cursor: pointer;
+	margin: 10px;
+}
+h3{
+	text-align: center;
+	text-shadow: 2px 2px black ;
+}
+input{
+	font-family: 'Audiowide', impact , sans-serif;
+	height: 40px;
+	font-size: 1.2em;
+	text-align: center;
+	border: auto;
+	border-radius: 10px ;
+}
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #6600cf;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+hr{
+	border: 2px black solid;
+}
+@media only screen and (max-width: 1138px){
+	body{
+		background-size: cover;
+	}
+	h3{
+	text-align: center;
+	text-shadow: 2px 2px black ;
+	}
+	#section2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+	img.planet{
+	margin-top: 20px;
+	width: 120px;
+	height: 100px;
+	cursor: pointer;
+	margin: 10px;
+	}
+
+}

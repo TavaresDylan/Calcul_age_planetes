@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<!-- Titre onglet -->
+	<title>Votre âge selon les planètes</title>
+	<!-- Encodage caractères -->
+	<meta charset="utf-8">
+	<!-- CDN Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
+	<!-- Police perso -->
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<!-- Meta viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+
+	<div id="titre">
+		<h1>Votre âge selon les planètes</h1>
+	</div>
+
+	<section id="section1">
+
+		<p>Êtes-vous déjà demandez quel âge vous auriez si vous viviez sur mercure par exemple ? Non ?! Nous y avons quand même répondu.</p>
+
+		<h2>Entrez votre date de naissance : </h2>
+		<form>
+			<label for="jour">Votre jour de naissance :</label>
+			<input type="number" name="jour" min="0"><br />
+
+			<label for="mois">Votre mois de naissance :</label>
+			<input type="number" name="mois" min="0"><br />
+
+			<label for="annee">Votre année de naissance :</label>
+			<input type="number" name="annee" min="0"><br />
+
+			<button class="button" type="submit"><span>Calculer</span></button>
+			<hr>
+			<div id="result">
+				<label for="result">Resultat : vous avez </label>
+				<input type="text" name="result" value="">
+			</div>
+		</form>
+	</section>
+	<hr>
+	<section id="section2">
+
+		<div id="terre">
+			<h3>Terre</h3>
+			<img class="planet" src="assets/img/terre.png">
+		</div>
+		<div id="venus">
+			<h3>Venus</h3>
+			<img class="planet" src="assets/img/venus.png">
+		</div>
+		<div id="mars">
+			<h3>Mars</h3>
+			<img class="planet" src="assets/img/mars.png">
+		</div>
+		<div id="neptune">
+			<h3>Neptune</h3>
+			<img class="planet" src="assets/img/neptune.png">
+		</div>
+		<div id="jupiter">
+			<h3>Jupiter</h3>
+			<img class="planet" src="assets/img/jupiter.png">
+		</div>
+		<div id="uranus">
+			<h3>Uranus</h3>
+			<img class="planet" src="assets/img/uranus.png">
+		</div>
+		<div id="saturne">
+			<h3>Saturne</h3>
+			<img class="planet" src="assets/img/saturne.png">
+		</div>
+		<div id="mercure">
+			<h3>Mercure</h3>
+			<img class="planet" src="assets/img/mercure.png">
+		</div>
+		
+	</section>
+</body>
+</html>
