@@ -15,7 +15,7 @@ Faire un site pour calculer notre âge selon les différentes planètes du syst�
 - Full Responsive
 - Mobile First
 - Background sur le thème de l'espace
-- Police personnalisée style futuriste
+- Police personnalisée style futuriste (https://fonts.googleapis.com/css?family=Audiowide)
 
 ### Détails :
 
