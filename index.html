@@ -28,28 +28,32 @@
 		<h2>Entrez votre date de naissance : </h2>
 		<form>
 			<label for="jour">Votre jour de naissance :</label>
-			<input type="number" name="jour" min="0"><br />
+			<input type="number" name="jour" id="jour" min="0" max="31"><br />
 
 			<label for="mois">Votre mois de naissance :</label>
-			<input type="number" name="mois" min="0"><br />
+			<input type="number" name="mois" id="mois" min="0" max="12"><br />
 
 			<label for="annee">Votre année de naissance :</label>
-			<input type="number" name="annee" min="0"><br />
+			<input type="number" name="annee" id="annee" min="0" max="9999"><br />
 
-			<button class="button" type="submit"><span>Calculer</span></button>
+			<!--<button class="button" onclick="calcul_age(this.form)"><span>Calculer</span></button>-->
 			<hr>
-			<div id="result">
-				<label for="result">Resultat : vous avez </label>
-				<input type="text" name="result" value="">
+			<div>
+				<label for="result">Resultat : vous vivez depuis </label><br />
+				<input type="text" name="result" id="result" value=""> <p>jours</p>
+			</div>
+			<div>
+				<label for="result">Soit : vous avez </label><br />
+				<input type="text" name="result2" id="result2" value=""> <p>ans</p>
 			</div>
 		</form>
 	</section>
 	<hr>
 	<section id="section2">
 
-		<div id="terre">
+		<div>
 			<h3>Terre</h3>
-			<img class="planet" src="assets/img/terre.png">
+			<img class="planet" src="assets/img/terre.png" id="terre" onclick="calcul_age(), alert('ok')">
 		</div>
 		<div id="venus">
 			<h3>Venus</h3>
@@ -79,7 +83,8 @@
 			<h3>Mercure</h3>
 			<img class="planet" src="assets/img/mercure.png">
 		</div>
-		
+
 	</section>
+	<script type="text/javascript" src="assets/script/script.js"></script>
 </body>
 </html>
