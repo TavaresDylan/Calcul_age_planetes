@@ -95,6 +95,10 @@ button {
 hr{
 	border: 2px black solid;
 }
+footer{
+	border: 2px solid black;
+	margin-top: 10px;
+}
 @media only screen and (max-width: 1138px){
 	body{
 		background-size: cover;
@@ -116,5 +120,9 @@ hr{
 	cursor: pointer;
 	margin: 10px;
 	}
+	footer{
+	border: 2px solid black;
+	margin-top: 10px;
+}
 
 }
